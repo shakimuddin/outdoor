@@ -1,0 +1,202 @@
+header .navbar-brand img{
+        width: 68px;
+}
+.banner {
+    background: #7f8282 url(../images/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    min-height: 70vh;
+    background-blend-mode: darken;
+}
+.banner .row{
+     min-height: 60vh;
+}
+
+.banner h4{
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+.banner h4::after{
+    content: " ";
+    background-color: #FB2056;
+    height: 4px;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+   transition: all 0.4s ease;
+}
+.banner:hover  h4::after{
+    width: 80px;
+}
+.banner h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    border: 1px solid !important;
+    border-radius: 50px !important;
+    padding: 10px 20px !important;
+    position: relative !important;
+
+}
+.banner .btn {
+border: none !important;
+}
+.banner a {
+    margin: 0 20px;
+    color: #fff;
+    background-color: #FB2056;
+
+}
+
+.banner a:hover {
+    background-color: rgba(218, 218, 218, 0.034);
+    color: #fff;
+
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #FB2056;
+}
+
+.last {
+    color: white;
+    border: 1px solid;
+    border-radius: 50px !important;
+    padding: 10px 20px;
+}
+
+.last:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #FB2056;
+}
+
+.content{
+    background-color:#F4F5F9;
+    color:#9994A1;
+}
+.events h1 {
+padding: 10px;
+    position: relative;
+}
+
+.events h1::after {
+    content: " ";
+    background-color: #FB2056;
+    height: 4px;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s ease;
+}
+.events:hover h1::after {
+    width: 80px;
+}
+.adv{
+    margin-top: 30px;
+}
+.upcoming a:hover {
+    background-color: rgba(218, 218, 218, 0.034);
+    color: black;
+
+}
+.upcoming h3 {
+    
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.upcoming h3::after {
+    content: " ";
+    background-color: #FB2056;
+    height: 4px;
+    width: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    transform: translateX(0%);
+    transition: all 0.4s ease;
+}
+
+.upcoming:hover h3::after {
+    width: 80px;
+}
+.events h1{
+    font-size: 20px;
+}
+.image img {
+        width: 504px;
+            margin-bottom: 50px;
+}
+
+.event a{
+          color: #FB2056;
+        text-decoration: none;
+        background-color: transparent;
+}
+.event a:hover{
+    text-decoration:none;
+    color: black;
+}
+.event i{
+    color: #FB2056;
+    margin-left:5px;
+}
+.events a:hover{
+    text-decoration:none;
+}
+.explore {
+    background: rgba(58, 61, 61, 0.74) url(../images/shank.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-blend-mode:darken;
+    min-height: 50vh;
+    color: #fff;
+}
+.explore a{
+    color: #ffffff;
+}
+.explore a:hover{
+   text-decoration:none;
+   color: #FB2056;
+}
+.explore i{
+    margin-left: 10px;
+}
+.explore .row{
+        min-height: 50vh;
+    
+}
+.upcoming .image2 img{
+        width: 364px;
+       margin-bottom: 17px;
+}
+.upcoming .image3 img {
+        width: 407px;
+        margin-bottom: 17px;
+
+}
+footer{
+    background-color:black;
+    
+    padding:28px 0;   
+}
+footer p{
+    color: #fff;
+    margin: 0;
+}
